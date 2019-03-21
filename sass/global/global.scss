@@ -1,20 +1,22 @@
 body {
   position: relative;
-  font-family: quattrocento_sansregular, Arial, sans-serif;
-  font-size: 14px;
+  font-family: $font-regular;
+  font-size: $main-size-f;
+}
+
+h1, h2 {
+  font-family: $ExtraBold-font;
+  font-size: $h2--header-size-f;
 }
 
 a {
   text-decoration: none;
 }
 
-
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 
   .clearfix:after {
   content: "";
@@ -22,7 +24,55 @@ img {
   clear: both;
 }
 
-  .wrap {
-    display: flex;
-    justify-content: center;
-  }
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.white-text {
+  color: $white;
+}
+
+.yellow-text {
+  color: $yellow;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+.gray-bg {
+  background-color: $gray;
+}
+
+.yellow-bg {
+  background-color: $yellow;
+}
+
+.button {
+  display: inline-block;
+  color: $black;
+  background-color: $yellow;
+  padding: 23px 34px;
+  border-radius: 50px;
+  font-size: 28px;
+}
+
+.icon {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: $yellow;
+}

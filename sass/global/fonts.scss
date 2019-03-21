@@ -1,56 +1,76 @@
 @font-face {
-  font-family: 'quattrocento_sansbold';
-  src: url('../fonts/quattrocentosans-bold-webfont.woff2') format('woff2'),
-  url('../fonts/quattrocentosans-bold-webfont.woff') format('woff');
+  font-family: 'Circe-Regular';
+  src: url('../fonts/Circe-Regular.eot');
+  src: local('../fonts/Circe'), local('Circe-Regular'),
+  url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Regular.woff') format('woff'),
+  url('../fonts/Circe-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'quattrocento_sansitalic';
-  src: url('../fonts/quattrocentosans-italic-webfont.woff2') format('woff2'),
-  url('../fonts/quattrocentosans-italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'quattrocento_sansregular';
-  src: url('../fonts/quattrocentosans-regular-webfont.woff2') format('woff2'),
-  url('../fonts/quattrocentosans-regular-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Circe-ExtraLight';
+  src: url('../fonts/Circe-ExtraLight.eot');
+  src: local('../fonts/Circe ExtraLight'), local('Circe-ExtraLight'),
+  url('../fonts/Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-ExtraLight.woff') format('woff'),
+  url('../fonts/Circe-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'rufina-bold-webfont';
-  src: url('../fonts/rufina-bold-webfont.woff2') format('woff2'),
-  url('../fonts/rufina-bold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Circe-Thin';
+  src: url('../fonts/Circe-Thin.eot');
+  src: local('../fonts/Circe Thin'), local('Circe-Thin'),
+  url('../fonts/Circe-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Thin.woff') format('woff'),
+  url('../fonts/Circe-Thin.ttf') format('truetype');
+  font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Quicksand Regular';
-  src: url('../fonts/Quicksand Regular.woff2') format('woff2'),
-  url('../fonts/Quicksand Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Circe-Light';
+  src: url('../fonts/Circe-Light.eot');
+  src: local('../fonts/Circe Light'), local('Circe-Light'),
+  url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Light.woff') format('woff'),
+  url('../fonts/Circe-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'juliussansone-regular-webfont';
-  src: url('../fonts/juliussansone-regular-webfont.woff2') format('woff2'),
-  url('../fonts/juliussansone-regular-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Circe-Bold';
+  src: url('../fonts/Circe-Bold.eot');
+  src: local('../fonts/Circe Bold'), local('Circe-Bold'),
+  url('../fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Bold.woff') format('woff'),
+  url('../fonts/Circe-Bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'gildadisplay-regular-webfont';
-  src: url('../fonts/gildadisplay-regular-webfont.woff2') format('woff2'),
-  url('../fonts/gildadisplay-regular-webfont.woff') format('woff');
+  font-family: 'Circe-ExtraBold';
+  src: url('../fonts/Circe-ExtraBold.eot');
+  src: local('../fonts/Circe ExtraBold'), local('Circe-ExtraBold'),
+  url('../fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-ExtraBold.woff') format('woff'),
+  url('../fonts/Circe-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionPro-Regular';
+  src: url('../fonts/MinionPro-Regular.eot');
+  src: local('../fonts/MinionPro-Regular'), local('Circe-ExtraBold'),
+  url('../fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MinionPro-Regular.woff') format('woff'),
+  url('../fonts/MinionPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

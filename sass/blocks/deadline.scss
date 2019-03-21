@@ -1,0 +1,51 @@
+.deadlines {
+  margin-top: -195px;
+  padding-top: 117px;
+  padding-bottom: 100px;
+  background-color: #f3ede8;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 71%, 0 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 75%, 0 100%);
+  min-height: 720px;
+  &__date {
+    margin-top: 112px;
+    font-family: $ExtraBold-font;
+    font-size: $desc-size-f;
+    margin-bottom: 35px;
+  }
+
+  &__button {
+    margin-bottom: 37px;
+  }
+
+  &__text {
+    font-size: $desc-size-f;
+  }
+
+  &__photo {
+    height: 410px;
+    img {
+      width: 100%;
+    }
+    &.margin {
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+  }
+
+  &__progress {
+    margin: 22px auto 0;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__progress-item {
+    width: 8px;
+    height: 34px;
+    background-color: $white;
+    transform: skew(-29deg, 0);
+    &.active {
+      background-color: $gray;
+    }
+  }
+}

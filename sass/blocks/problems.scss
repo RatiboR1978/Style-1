@@ -1,0 +1,18 @@
+.problems {
+  &__title {
+    font-size: $h2-size-f;
+    white-space: pre-line;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    margin-left: 35px;
+    max-width: 309.5px;
+    margin-bottom: 0;
+  }
+}

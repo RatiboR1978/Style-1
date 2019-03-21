@@ -1,9 +1,12 @@
-@import "global/fonts";
-@import "global/global";
-@import "global/variables";
-@import "blocks/header";
-@import "blocks/footer";
 @import "../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "global/fonts";
+@import "global/variables";
+@import "global/global";
+@import "blocks/header";
+@import "blocks/deadline";
+@import "blocks/problems";
+@import "blocks/footer";
+
 
