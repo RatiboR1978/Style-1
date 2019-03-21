@@ -11,6 +11,9 @@ h1, h2 {
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 img {
@@ -18,7 +21,7 @@ img {
   height: auto;
 }
 
-  .clearfix:after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -76,3 +79,4 @@ img {
   border-radius: 50%;
   background-color: $yellow;
 }
+

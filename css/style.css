@@ -12548,6 +12548,8 @@ h1, h2 {
 
 a {
   text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 img {
   max-width: 100%;
@@ -12726,3 +12728,71 @@ img {
   margin-left: 35px;
   max-width: 309.5px;
   margin-bottom: 0; }
+
+.check-list__button {
+  text-align: center;
+  white-space: pre-line; }
+
+.result {
+  position: relative;
+  background-image: url(../img/bg-result.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .result__dark {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(41, 33, 30, 0.7); }
+  .result__item {
+    border: 2px solid #fcbc31;
+    margin-bottom: 50px;
+    padding: 87px 50px 51px;
+    -webkit-border-radius: 40px;
+            border-radius: 40px;
+    text-align: center; }
+
+.interest {
+  padding-bottom: 50px; }
+  .interest__item {
+    float: right;
+    position: relative;
+    max-width: 685px;
+    padding: 62px 89px 62px 40px;
+    border: 2px solid #fcbc31;
+    -webkit-border-radius: 40px;
+            border-radius: 40px;
+    margin-bottom: 26px; }
+  .interest__text {
+    height: 210px;
+    margin-bottom: 0; }
+  .interest__desc {
+    position: absolute;
+    text-align: right;
+    top: 112px;
+    left: -272px;
+    width: 315px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .interest__desc p {
+      max-width: 168px;
+      font-family: Circe-ExtraBold, sans-serif;
+      margin-bottom: 0; }
+
+.program {
+  -webkit-clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+  margin-top: 0;
+  background-color: #f8f7f6; }
