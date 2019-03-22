@@ -19,6 +19,7 @@
   hr {
     background-color: $yellow;
     height: 2px;
+    margin-bottom: 30px;
   }
 
   &__description {
@@ -50,7 +51,7 @@
 
   &__days {
     font-size: $desc-size-f;
-    margin-bottom: 28px;
+    margin-bottom: 40px;
   }
 
   &__grad-block {

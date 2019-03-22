@@ -1,12 +1,11 @@
 .acquaintance {
-  clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(0 21%, 111% 0%, 100% 100%, 0 100%);
   background-image: url("../img/bg-familiarity.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $experience-color;
   margin-top: -280px;
-  //padding-top: 290px;
   padding-bottom: 140px;
   position: relative;
   &__grad {
@@ -23,7 +22,7 @@
   }
 
   &__block {
-    margin-top: 275px;
+    margin-top: 203px;
     background-color: transparentize($black, 0.3);
     color: $white;
     max-width: 512px;

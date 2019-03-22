@@ -3,8 +3,10 @@
   background-color: $white;
   padding-top: 160px;
   padding-bottom: 80px;
+  margin-top: -210px;
   &__title {
     margin-bottom: 44px;
+    margin-top: 53px;
   }
 
   &__text {
@@ -33,5 +35,10 @@
         top: 10px;
       }
     }
+  }
+
+  &__button {
+    padding: 34px 117px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .6) inset;
   }
 }

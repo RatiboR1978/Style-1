@@ -1,13 +1,17 @@
 .experience {
-  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(0 22%, 104% 0%, 100% 100%, 0 100%);
   background-color: $experience-color;
   margin-top: -264px;
-  padding-top: 130px;
-  padding-bottom: 70px;
+  padding-top: 165px;
+  padding-bottom: 185px;
+  &__title {
+    margin-bottom: 23px;
+  }
+
   &__text {
     font-family: $bold-font;
     font-size: $desc-size-f;
-    margin-bottom: 63px;
+    margin-bottom: 57px;
   }
 
   &__photo {
