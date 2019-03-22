@@ -1,0 +1,17 @@
+.footer {
+  background-color: $footer-color;
+  text-align: center;
+  font-family: $footer-Regular;
+  font-size: $footer-size-f;
+  color: $white;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  &__link {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  &__text {
+    white-space: pre-line;
+  }
+}

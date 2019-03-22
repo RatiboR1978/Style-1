@@ -1,24 +1,35 @@
 .interest {
+  padding-top: 64px;
   padding-bottom: 50px;
+  &__title {
+    margin-bottom: 67px;
+  }
+
   &__item {
     float: right;
+    text-align: left;
     position: relative;
     max-width: 685px;
-    padding: 62px 89px 62px 40px;
+    padding-left: 86px;
+    padding-right: 38px;
     border: 2px solid $yellow;
-    border-radius: 40px;
+    border-radius: 50px;
     margin-bottom: 26px;
+    line-height: 24px;
+    min-height: 233px;
+    display: flex;
+    align-items: center;
   }
 
   &__text {
-    height: 210px;
     margin-bottom: 0;
   }
 
   &__desc {
     position: absolute;
     text-align: right;
-    top: 112px;
+    top: 50%;
+    margin-top: -45px;
     left: -272px;
     width: 315px;
     justify-content: space-between;

@@ -1,0 +1,33 @@
+.experience {
+  clip-path: polygon(0 22%, 100% 0%, 100% 100%, 0 100%);
+  background-color: $experience-color;
+  margin-top: -264px;
+  padding-top: 130px;
+  padding-bottom: 70px;
+  &__text {
+    font-family: $bold-font;
+    font-size: $desc-size-f;
+    margin-bottom: 63px;
+  }
+
+  &__photo {
+    background-color: $yellow;
+    height: 405px;
+    &.user1 {
+      background-image: url(../img/uzer3.png);
+      background-repeat: no-repeat;
+    }
+    &.user2 {
+      background-image: url(../img/user4.png);
+      background-repeat: no-repeat;
+    }
+    &.user3 {
+      background-image: url(../img/user5.png);
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__btn {
+    margin-top: 47px;
+  }
+}

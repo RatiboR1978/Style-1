@@ -1,8 +1,15 @@
 .result{
   position: relative;
+  padding-top: 47px;
+  padding-bottom: 76px;
   background-image: url(../img/bg-result.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  &__title {
+    margin-bottom: 78px;
+  }
+
   &__dark {
     position: absolute;
     top: 0;
@@ -14,9 +21,25 @@
 
   &__item {
     border: 2px solid $yellow;
-    margin-bottom: 50px;
-    padding: 87px 50px 51px;
+    margin-bottom: 56px;
+    padding: 80px 37px 58px;
     border-radius: 40px;
     text-align: center;
+    position: relative;
+    &.margin-b {
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -45px;
   }
 }

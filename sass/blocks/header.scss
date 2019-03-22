@@ -8,6 +8,10 @@
   background-size: cover;
   font-family: $bold-font;
   clip-path: polygon(0 0%, 100% 0%, 100% 81%, 0 100%);
+  h2 {
+    font-size: $h2--header-size-f;
+  }
+
   &__title {
     margin-bottom: 32px;
   }
