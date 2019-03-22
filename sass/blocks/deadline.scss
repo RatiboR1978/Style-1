@@ -3,14 +3,25 @@
   padding-top: 117px;
   padding-bottom: 100px;
   background-color: #f3ede8;
-  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 71%, 0 100%);
   clip-path: polygon(0 0%, 100% 0%, 100% 75%, 0 100%);
   min-height: 720px;
+  @media (max-width: 1200px) {
+    margin-top: -292px;
+  }
+
+  @media (max-width: 991px) {
+    padding-bottom: 200px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 93%, 0 98%);
+  }
+
   &__date {
     margin-top: 112px;
     font-family: $ExtraBold-font;
     font-size: $desc-size-f;
     margin-bottom: 35px;
+    @media (max-width: 991px) {
+      margin-top: 35px;
+    }
   }
 
   &__button {
@@ -21,14 +32,9 @@
     font-size: $desc-size-f;
   }
 
-  &__photo {
-    height: 412px;
-    img {
-      width: 100%;
-    }
-    &.margin {
-      margin-top: 30px;
-      margin-bottom: 0px;
+  &__img {
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
     }
   }
 
@@ -37,6 +43,10 @@
     width: 300px;
     display: flex;
     justify-content: space-around;
+    @media (max-width: 991px) {
+      margin-bottom: 35px;
+      width: 255px;
+    }
   }
 
   &__progress-item {

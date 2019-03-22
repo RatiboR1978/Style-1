@@ -7,10 +7,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: $bold-font;
-  clip-path: polygon(0 0%, 100% 0%, 100% 81%, 0 100%);
-  h2 {
-    font-size: $h2--header-size-f;
+  clip-path: polygon(0 0%, 101% 0%, 100% 81%, 0 97%);
+  @media (max-width: 1200px) {
+    padding-bottom: 120px;
+    clip-path: polygon(0 0%, 101% 0%, 100% 81%, 0 90%);
   }
+  @media (max-width: 460px) {
+    clip-path: polygon(0 0%, 101% 0%, 100% 84%, 0 90%);
+  }
+
+
+
 
   &__title {
     margin-bottom: 32px;
@@ -47,6 +54,19 @@
     z-index: 150;
     clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
     padding-top: 130px;
+    @media (max-width: 1200px) {
+      height: 730px;
+      clip-path: polygon(0 19%, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    @media (max-width: 1200px) {
+      clip-path: polygon(0 19%, 165% 0%, 100% 100%, 0 100%);
+    }
+
+    @media (max-width: 450px) {
+      padding-top: 230px;
+      height: 1050px;
+    }
   }
 
   &__days {

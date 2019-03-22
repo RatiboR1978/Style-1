@@ -4,6 +4,20 @@
   background-color: $program-color;
   padding-top: 290px;
   padding-bottom: 250px;
+  @media (max-width: 991px) {
+    clip-path: polygon(0 12%, 165% 0%, 100% 100%, 0 100%);
+  }
+
+  @media (max-width: 640px) {
+    clip-path: polygon(0 10%, 215% 0%, 100% 100%, 0 100%);
+  }
+
+  &__item {
+    @media (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+  }
+
   &__title {
     white-space: pre-line;
     margin-bottom: 53px;

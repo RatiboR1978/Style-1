@@ -1,9 +1,13 @@
 .experience {
-  clip-path: polygon(0 22%, 104% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(0 17%, 129% 0%, 100% 100%, 0 100%);
   background-color: $experience-color;
   margin-top: -264px;
   padding-top: 165px;
   padding-bottom: 185px;
+  @media (max-width: 767px) {
+    clip-path: polygon(0 6%, 153% 0%, 100% 100%, 0 100%)
+  }
+
   &__title {
     margin-bottom: 23px;
   }
@@ -15,19 +19,8 @@
   }
 
   &__photo {
-    background-color: $yellow;
-    height: 405px;
-    &.user1 {
-      background-image: url(../img/uzer3.png);
-      background-repeat: no-repeat;
-    }
-    &.user2 {
-      background-image: url(../img/user4.png);
-      background-repeat: no-repeat;
-    }
-    &.user3 {
-      background-image: url(../img/user5.png);
-      background-repeat: no-repeat;
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
     }
   }
 

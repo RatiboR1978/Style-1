@@ -9,20 +9,42 @@
     float: right;
     text-align: left;
     position: relative;
-    max-width: 685px;
-    padding-left: 86px;
-    padding-right: 38px;
+    max-width: 650px;
+    padding: 60px 38px 60px 86px;
     border: 2px solid $yellow;
     border-radius: 50px;
-    margin-bottom: 26px;
+    margin-bottom: 61px;
     line-height: 24px;
-    min-height: 233px;
     display: flex;
     align-items: center;
+    @media (max-width: 991px) {
+      margin-top: 65px;
+      padding: 60px 38px 60px 38px;
+    }
   }
 
   &__text {
     margin-bottom: 0;
+  }
+
+  &__explanation {
+    position: absolute;
+    font-family: $ExtraBold-font;
+    top: 50%;
+    width: 152px;
+    white-space: pre-line;
+    display: block;
+    left: -217px;
+    margin-top: -24px;
+    text-align: right;
+    @media (max-width: 991px) {
+      white-space: normal;
+      text-align: center;
+      margin-top: 0;
+      left: 0;
+      top: -101px;
+      width: 100%;
+    }
   }
 
   &__desc {
@@ -30,20 +52,31 @@
     text-align: right;
     top: 50%;
     margin-top: -45px;
-    left: -272px;
+    left: -46px;
     width: 315px;
-    justify-content: space-between;
     align-items: center;
     display: flex;
     p {
-      max-width: 168px;
-      font-family: $ExtraBold-font;
-      margin-bottom: 0;
+
     }
-  }
+    @media (max-width: 991px) {
+      flex-direction: column;
+      top: 0;
+      margin-top: -45px;
+      left: 50%;
+      margin-left: -157px;
+      width: 326px;
+      p {
+        margin-right: 0;
+        max-width: 326px;
+      }
+    }
 
-  &__icon {
-
+    @media (max-width: 385px) {
+      width: 280px;
+      text-align: center;
+      margin-left: -140px;
+    }
   }
 
 }

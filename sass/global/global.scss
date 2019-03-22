@@ -7,6 +7,10 @@ body {
 h1 {
   font-family: $ExtraBold-font;
   font-size: $h2--header-size-f;
+  @media (max-width: 768px) {
+    font-size: 36px;
+    margin: 0px 0 35px 0;
+  }
 }
 
 h2 {
@@ -14,6 +18,9 @@ h2 {
   font-family: $ExtraBold-font;
   font-size: $h2-size-f;
   line-height: 42px;
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 }
 
 a {
@@ -76,7 +83,7 @@ img {
   background-color: $yellow;
   padding: 33px 34px;
   border-radius: 50px;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 23px;
   &.litle {
     padding: 22px 34px;
